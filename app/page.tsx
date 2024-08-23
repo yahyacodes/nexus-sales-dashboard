@@ -16,19 +16,19 @@ export default function Home() {
           <Header />
           <Stats />
           <div className="grid grid-cols-1 xl:grid-cols-5 gap-4 mb-4">
-            <div className="col-span-4">
+            <div className="xl:col-span-4">
               <SalesChart />
             </div>
-            <div className="cols-span-1">
+            <div className="xl:cols-span-1">
               <TodaysOrders />
             </div>
           </div>
 
           <div className="grid grid-cols-1 xl:grid-cols-6 gap-4">
-            <div className="col-span-2">
+            <div className="xl:col-span-2">
               <RecentOrders />
             </div>
-            <div className="col-span-4">
+            <div className="xl:col-span-4">
               <PopularProducts />
             </div>
           </div>
